@@ -1,0 +1,38 @@
+// sempre ter um git ignore no nossok projeto automatizado
+// DA PRA PEDIR PARA O CHAT CPT CRIAR UM GIT IGNORE 
+// No ChatGPT, enviar a frase: Criar um arquivo .gitignore para o cypress
+
+# Ignore node_modules and npm/yarn log files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Cypress test reports
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+
+# Ignore local Cypress environment configuration
+cypress.env.json
+.env
+.env.*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore code coverage reports (if using)
+coverage/
+*.lcov
+
+# Ignore lockfiles for npm or yarn
+package-lock.json
+yarn.lock
+
+# Ignore other project-specific folders or files
+.idea/
+.vscode/
+
+# Cache
+.cache/
