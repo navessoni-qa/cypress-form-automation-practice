@@ -22,7 +22,6 @@ This project contains automated tests using [Cypress](https://www.cypress.io/) t
 
    ```bash
    npm install
-
 ## Test Structure
 
 ### Test File: `feedbackForm.cy.js`
@@ -46,13 +45,21 @@ The test uses a custom command `submitForm` to simplify filling in the form fiel
 
 ## Running the Tests
 
-To run the tests in interactive mode:
+As part of improving my workflow and practicing custom scripts, I modified the test running commands. Now, the following commands are used:
 
-`npx cypress open`
+- To run the tests in interactive mode:
+  ```bash 
+  npm run cypress:open
+- To run the tests in the terminal:
+  ```bash 
+  npm run cypress:run
+- To run the tests using Chrome browser:
+  ```bash 
+  npm run cypress:run:chrome
+These commands help streamline the testing process and provide more flexibility in selecting browsers and environments.
 
-To run the tests in the terminal:
-
-`npx cypress run`
+## Mentorship
+This project is part of the **Automation MasterClass** mentorship program with **Alexandre Silva**.
 
 ## Dependencies
 
